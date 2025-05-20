@@ -157,6 +157,7 @@ container {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	margin-bottom: 8px;
 }
 
 .sec-two-parag {
@@ -167,6 +168,7 @@ container {
 }
 
 .sec-two-list-box {
+	width: calc((100% - 72px) / 4);
 }
 
 /* ------------------ SECTION 3 ----------------------- */
