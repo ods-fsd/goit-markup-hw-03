@@ -13,6 +13,10 @@ ul {
 	list-style: none;
 }
 
+img {
+	display: block;
+}
+
 /* ----------- HEADER ---------------- */
 
 .logo {
@@ -63,10 +67,6 @@ nav span {
 .header-contact:hover,
 .header-contact:focus {
 	color: #404bbf;
-}
-
-img {
-	display: block;
 }
 
 .header-box {
@@ -128,6 +128,29 @@ container {
 	cursor: pointer;
 }
 
+/* ------------------------ SECTION 2 ----------------------- */
+
+.sec-two {
+	padding: 120px 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.sec-two-list {
+	display: flex;
+	gap: 24px;
+}
+
 .sec-two-h {
 	font-weight: 500;
 	font-size: 20px;
@@ -142,6 +165,11 @@ container {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+
+.sec-two-list-box {
+}
+
+/* ------------------ SECTION 3 ----------------------- */
 
 .sec-three {
 	background-color: #f4f4fd;
