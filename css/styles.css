@@ -13,6 +13,8 @@ ul {
 	list-style: none;
 }
 
+/* ----------- HEADER ---------------- */
+
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -21,6 +23,7 @@ ul {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
+	margin-right: 76px;
 }
 
 nav span {
@@ -33,6 +36,7 @@ nav span {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	padding: 24px 0;
 }
 
 .nav-menu:hover,
@@ -42,6 +46,11 @@ nav span {
 
 .header-address {
 	font-style: normal;
+}
+
+.header-cont-info {
+	display: flex;
+	gap: 40px;
 }
 
 .header-contact {
@@ -55,6 +64,34 @@ nav span {
 .header-contact:focus {
 	color: #404bbf;
 }
+
+img {
+	display: block;
+}
+
+.header-box {
+	border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div,
+container {
+	display: flex;
+	width: 1158px;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu {
+	display: flex;
+	gap: 40px;
+}
+
+/* -------------------------- SECTION 1 ------------------------- */
 
 .sec-one {
 	background-color: #2e2f42;
