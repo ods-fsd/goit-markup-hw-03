@@ -175,6 +175,7 @@ container {
 
 .sec-three {
 	background-color: #f4f4fd;
+	padding: 120px 0;
 }
 
 .sec-three-h {
@@ -184,14 +185,66 @@ container {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: #2e2f42;
+	margin-bottom: 72px;
+}
+
+.sec-three-box {
+	display: flex;
+	gap: 24px;
 }
 
 .sec-three-li {
 	background-color: #ffffff;
+	width: calc((100% - 72px) / 4);
+	border-radius: 0px 0px 4px 4px;
 }
+
+.hero-info {
+	padding: 32px 0;
+}
+
+.hero-info > .sec-two-h {
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.hero-info > .sec-two-parag {
+	text-align: center;
+}
+
+/* ------------------ SECTION 4 ----------------- */
+
+.sec-four {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.sec-four > .sec-three-h {
+	margin-bottom: 72px;
+}
+
+.sec-four-list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
+}
+
+.sec-four-list > .sec-three-li {
+	width: calc((100% - 48px) / 3);
+}
+
+.sec-four-box {
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
+	border-top: none;
+	margin-bottom: 8px;
+}
+/* -------------------- FOOTER ----------------- */
 
 .footer-styles {
 	background-color: #2e2f42;
+	padding: 100px 0;
 }
 
 footer span {
@@ -206,4 +259,10 @@ footer span {
 	line-height: 1.5;
 	color: #f4f4fd;
 	letter-spacing: 0.02em;
+	max-width: 264px;
+}
+
+.sec-four > a {
+	display: inline-block;
+	margin-bottom: 16px;
 }
