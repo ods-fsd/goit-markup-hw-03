@@ -13,7 +13,7 @@ ul {
 	list-style: none;
 }
 
-p,
+/* p,
 ul,
 li,
 h1,
@@ -24,7 +24,7 @@ h5,
 h6 {
 	margin: 0;
 	padding: 0;
-}
+} */
 
 img {
 	display: block;
