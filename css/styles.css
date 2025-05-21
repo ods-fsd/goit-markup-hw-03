@@ -168,7 +168,7 @@ nav span {
 }
 
 .sec-two-list-box {
-	width: calc((100% - 72px) / 4);
+	flex-basis: calc((100% - 72px) / 4);
 }
 
 /* ------------------ SECTION 3 ----------------------- */
