@@ -262,7 +262,7 @@ footer span {
 	max-width: 264px;
 }
 
-.sec-four > a {
+.sec-four > .logo {
 	display: inline-block;
 	margin-bottom: 16px;
 }
