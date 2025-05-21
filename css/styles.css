@@ -17,6 +17,13 @@ img {
 	display: block;
 }
 
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
 /* ----------- HEADER ---------------- */
 
 .logo {
