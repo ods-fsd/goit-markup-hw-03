@@ -13,6 +13,19 @@ ul {
 	list-style: none;
 }
 
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
 img {
 	display: block;
 }
@@ -30,7 +43,7 @@ img {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 117%;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
@@ -169,7 +182,7 @@ container {
 }
 
 .sec-two-list-box {
-	flex-basis: calc((100% - 72px) / 4);
+	width: calc((100% - 72px) / 4);
 }
 
 .sec-two-h {
@@ -182,10 +195,8 @@ container {
 }
 
 .sec-two-parag {
-	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
 }
 
 /* ------------------ SECTION 3 ----------------------- */
