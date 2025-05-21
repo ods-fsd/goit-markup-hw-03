@@ -193,7 +193,7 @@ container {
 	gap: 24px;
 }
 
-.sec-four li {
+.sec-three li {
 	background-color: #ffffff;
 	width: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
@@ -230,7 +230,7 @@ container {
 	row-gap: 48px;
 }
 
-.sec-four-list .sec-three-li {
+.sec-four li {
 	width: calc((100% - 48px) / 3);
 }
 
