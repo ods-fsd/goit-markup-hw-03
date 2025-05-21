@@ -73,7 +73,8 @@ nav span {
 	border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.header-div,
+container {
 	display: flex;
 	width: 1158px;
 	margin: 0 auto;
@@ -137,17 +138,22 @@ nav span {
 	position: absolute;
 	width: 1px;
 	height: 1px;
-	margin: -1px;
 	padding: 0;
-	border: 0;
-	clip: rect(0, 0, 0, 0);
-	overflow: hidden;
+	margin: -1px;
 	white-space: nowrap;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	clip-path: inset(100%);
+	border: 0;
 }
 
 .sec-two-list {
 	display: flex;
 	gap: 24px;
+}
+
+.sec-two-list-box {
+	flex-basis: calc((100% - 72px) / 4);
 }
 
 .sec-two-h {
@@ -164,10 +170,6 @@ nav span {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
-}
-
-.sec-two-list-box {
-	flex-basis: calc((100% - 72px) / 4);
 }
 
 /* ------------------ SECTION 3 ----------------------- */
