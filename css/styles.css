@@ -193,7 +193,7 @@ container {
 	gap: 24px;
 }
 
-.sec-four-list li {
+.sec-three-li {
 	background-color: #ffffff;
 	flex-basis: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
